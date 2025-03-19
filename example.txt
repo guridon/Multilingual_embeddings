@@ -1,0 +1,1 @@
+python main.py --model sentence-transformers/paraphrase-xlm-r-multilingual-v1 --dataset code-switch.json --output output --threshold 0.7 --normalize
