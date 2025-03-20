@@ -7,6 +7,8 @@ from visualizer import (reduce_dimensions, plot_embeddings_matplotlib,
                         plot_embeddings_plotly, plot_connections_by_item,
                         plot_connections_by_similarity)
 from utils import setup_output_directory, save_embeddings, print_summary
+from code_switching_analyzer import CodeSwitchingAnalyzer
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='multilingual embeddings analysis')

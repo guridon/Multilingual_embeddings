@@ -1,0 +1,126 @@
+
+            <!DOCTYPE html>
+            <html>
+            <head>
+                <title>카테고리별 클러스터 밀집도 분석</title>
+                <style>
+                    body { font-family: Arial, sans-serif; margin: 20px; }
+                    h1, h2 { color: #333; }
+                    table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                    th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                    th { background-color: #f2f2f2; }
+                    tr:nth-child(even) { background-color: #f9f9f9; }
+                    .overview { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                    .category-badge {
+                        display: inline-block;
+                        padding: 3px 8px;
+                        border-radius: 12px;
+                        font-size: 12px;
+                        color: white;
+                        margin-right: 5px;
+                    }
+                </style>
+            </head>
+            <body>
+                <h1>카테고리별 클러스터 밀집도 분석 (sentence-transformers/paraphrase-xlm-r-multilingual-v1)</h1>
+                
+                <div class="overview">
+                    <h2>전체 통계</h2>
+                    <p>
+                        <strong>전체 항목 수:</strong> 101<br>
+                        <strong>전체 평균 밀집도:</strong> 0.3759<br>
+                        <strong>최대 밀집도:</strong> 0.8251<br>
+                        <strong>최소 밀집도:</strong> 0.1267
+                    </p>
+                </div>
+                
+                <h2>카테고리별 통계</h2>
+                <table>
+                    <tr>
+                        <th>카테고리</th>
+                        <th>항목 수</th>
+                        <th>평균 밀집도</th>
+                        <th>표준편차</th>
+                        <th>최소값</th>
+                        <th>최대값</th>
+                    </tr>
+            
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #1abc9c">언어/번역</span></td>
+                        <td>10</td>
+                        <td>0.4965</td>
+                        <td>0.1724</td>
+                        <td>0.2956</td>
+                        <td>0.8251</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #3498db">글로벌 문화</span></td>
+                        <td>13</td>
+                        <td>0.4471</td>
+                        <td>0.1814</td>
+                        <td>0.2182</td>
+                        <td>0.7886</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #2ecc71">기술/과학</span></td>
+                        <td>33</td>
+                        <td>0.3783</td>
+                        <td>0.1192</td>
+                        <td>0.2050</td>
+                        <td>0.8061</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #f39c12">지역 특수 문화</span></td>
+                        <td>22</td>
+                        <td>0.3305</td>
+                        <td>0.0981</td>
+                        <td>0.1267</td>
+                        <td>0.4760</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #e67e22">음식/요리</span></td>
+                        <td>8</td>
+                        <td>0.3291</td>
+                        <td>0.0686</td>
+                        <td>0.2759</td>
+                        <td>0.4807</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #9b59b6">학술/철학</span></td>
+                        <td>11</td>
+                        <td>0.3288</td>
+                        <td>0.0617</td>
+                        <td>0.2181</td>
+                        <td>0.4138</td>
+                    </tr>
+                
+                    <tr>
+                        <td><span class="category-badge" style="background-color: #e74c3c">역사/지정학</span></td>
+                        <td>4</td>
+                        <td>0.2962</td>
+                        <td>0.0728</td>
+                        <td>0.1804</td>
+                        <td>0.3811</td>
+                    </tr>
+                
+                </table>
+                
+                <h2>결론</h2>
+                <div class="overview">
+            
+                    <p>카테고리별 클러스터 밀집도를 분석한 결과, <strong>언어/번역</strong> 카테고리가 평균 0.4965로 
+                    가장 높은 밀집도를 보였습니다. 이는 이 카테고리의 항목들이 다양한 표현 방식(코드 스위칭, 비 코드 스위칭) 간에 
+                    의미적 일관성을 잘 유지하고 있음을 시사합니다.</p>
+                    
+                    <p>반면, <strong>역사/지정학</strong> 카테고리는 평균 0.2962로 가장 낮은 밀집도를 보였습니다.
+                    이는 이 카테고리의 항목들이 서로 다른 표현 방식 간에 의미적 차이가 크게 나타날 수 있음을 의미합니다.</p>
+                
+                </div>
+            </body>
+            </html>
+            

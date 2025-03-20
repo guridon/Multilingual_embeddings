@@ -1,0 +1,95 @@
+
+        <!DOCTYPE html>
+        <html>
+        <head>
+            <title>코드 스위칭 분석 보고서</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                h1 { color: #333; }
+                table { border-collapse: collapse; width: 100%; }
+                th, td { border: 1px solid #ddd; padding: 8px; }
+                th { background-color: #f2f2f2; text-align: left; }
+                .high-score { background-color: rgba(0, 255, 0, 0.2); }
+                .medium-score { background-color: rgba(255, 255, 0, 0.2); }
+                .low-score { background-color: rgba(255, 0, 0, 0.2); }
+                .score-cell { font-weight: bold; text-align: center; }
+            </style>
+        </head>
+        <body>
+            <h1>코드 스위칭 및 다국어 임베딩 포괄적 분석 보고서</h1>
+            <div style="display: none;"># 코드 스위칭 및 다국어 임베딩 포괄적 분석 보고서
+
+    ## 모델 정보
+    - 모델: sentence-transformers/paraphrase-xlm-r-multilingual-v1
+    - 분석 항목 수: 101
+
+    ## 표현 유형 간 유사도 분석
+    ### 모든 표현 유형 쌍 간의 평균 유사도
+    | 표현 유형 쌍 | 평균 유사도 | 표준편차 | 최소값 | 최대값 | 데이터 수 |
+|--------------|------------|----------|--------|--------|----------|
+| 한→영 코드스위칭 → 영어 | 0.3870 | 0.1639 | 0.0809 | 0.9270 | 101 |
+| 영→한 코드스위칭 → 한→영 코드스위칭 | 0.3793 | 0.1677 | 0.0169 | 0.8358 | 101 |
+| 영→한 코드스위칭 → 영어 | 0.3783 | 0.1755 | -0.0848 | 0.9115 | 101 |
+| 영어 → 한국어 | 0.3782 | 0.1680 | 0.0862 | 0.8546 | 101 |
+| 한→영 코드스위칭 → 한국어 | 0.3725 | 0.1633 | 0.0014 | 0.9038 | 101 |
+| 영→한 코드스위칭 → 한국어 | 0.3600 | 0.1629 | 0.0470 | 0.8317 | 101 |
+
+    ## 항목 클러스터 분석
+
+    ### 항목 클러스터 밀집도 통계
+    - 평균 밀집도: 0.3759
+    - 표준편차: 0.1346
+    - 최소값: 0.1267
+    - 최대값: 0.8251
+
+    ### 밀집도 상위 5개 항목
+    | 항목 인덱스 | 클러스터 밀집도 |
+|------------|----------------|
+| 99 | 0.8251 |
+| 100 | 0.8124 |
+| 23 | 0.8061 |
+| 49 | 0.7886 |
+| 48 | 0.7695 |
+
+    ### 밀집도 하위 5개 항목
+    | 항목 인덱스 | 클러스터 밀집도 |
+|------------|----------------|
+| 8 | 0.2050 |
+| 61 | 0.1984 |
+| 36 | 0.1804 |
+| 62 | 0.1461 |
+| 59 | 0.1267 |
+
+    ## 코드 스위칭 효과 분석
+
+    ### 코드 스위칭과 베이스라인 비교
+    - EtoK → English 평균 유사도: 0.37834325432777405
+    - KtoE → Korean 평균 유사도: 0.37250635027885437
+
+    ### 코드 스위칭 간 비교
+    - EtoK → KtoE 평균 유사도: 0.3792828619480133
+
+    ### 베이스라인 간 비교
+    - English → Korean 평균 유사도: 0.3782329261302948
+
+    ## 결론
+
+    1. **코드 스위칭 처리 능력**: 
+    - 코드 스위칭과 베이스라인 간의 유사도는 평균적으로 0.3754입니다.
+    - EtoK→English가 KtoE→Korean보다 높은 유사도를 보임
+
+    2. **다국어 임베딩 특성**:
+    - 같은 의미의 서로 다른 표현 유형들은 임베딩 공간에서 비교적 분산된 클러스터를 형성합니다.
+    - 평균 클러스터 밀집도: 0.3759
+
+    3. **시각화 결과**:
+    다음 파일에서 시각화 결과를 확인할 수 있습니다:
+    - 표현 유형 간 유사도 비교: output_analysis_category/comprehensive_similarity_comparison.html
+    - 항목별 클러스터 시각화: output_analysis_category/item_clusters.html
+    - 표현 유형 간 유사도 히트맵: output_analysis_category/type_similarity_heatmap.html
+    - 표현 유형 쌍별 유사도 분포: output_analysis_category/type_similarity_distribution.html
+    - 항목별 클러스터 밀집도: output_analysis_category/item_cluster_scores.html
+    </div>
+        </body>
+        </html>
+        
