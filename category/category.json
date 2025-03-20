@@ -1,0 +1,507 @@
+[
+  {
+    "idx": 0,
+    "category": "tech",
+    "content": "양자 컴퓨팅과 양자 얽힘"
+  },
+  {
+    "idx": 1,
+    "category": "tech",
+    "content": "생성적 적대 신경망(GAN)"
+  },
+  {
+    "idx": 2,
+    "category": "tech",
+    "content": "자가 치유 소재와 촉매 물질"
+  },
+  {
+    "idx": 3,
+    "category": "tech",
+    "content": "뇌-컴퓨터 인터페이스"
+  },
+  {
+    "idx": 4,
+    "category": "tech",
+    "content": "혼합 현실과 컴퓨터 비전"
+  },
+  {
+    "idx": 5,
+    "category": "tech",
+    "content": "나노 로봇과 자기장 조작"
+  },
+  {
+    "idx": 6,
+    "category": "tech",
+    "content": "초고성능 컴퓨팅과 병렬 처리"
+  },
+  {
+    "idx": 7,
+    "category": "tech",
+    "content": "블록체인과 합의 알고리즘"
+  },
+  {
+    "idx": 8,
+    "category": "tech",
+    "content": "자율주행과 센서 융합"
+  },
+  {
+    "idx": 9,
+    "category": "tech",
+    "content": "신경 모방 컴퓨팅과 스파이킹 뉴런"
+  },
+  {
+    "idx": 10,
+    "category": "tech",
+    "content": "클라우드 컴퓨팅과 서버리스 아키텍처"
+  },
+  {
+    "idx": 11,
+    "category": "tech",
+    "content": "사물 인터넷과 엣지 분석"
+  },
+  {
+    "idx": 12,
+    "category": "tech",
+    "content": "양자 암호와 단일 광자 전송"
+  },
+  {
+    "idx": 13,
+    "category": "tech",
+    "content": "그래핀 전자 부품과 2차원 소재"
+  },
+  {
+    "idx": 14,
+    "category": "tech",
+    "content": "3D 프린팅과 다중 재료 공정"
+  },
+  {
+    "idx": 15,
+    "category": "tech",
+    "content": "합성 생물학과 DNA 회로 설계"
+  },
+  {
+    "idx": 16,
+    "category": "tech",
+    "content": "DNA 데이터 저장과 염기열 암호화"
+  },
+  {
+    "idx": 17,
+    "category": "tech",
+    "content": "차세대 배터리와 리튬 황"
+  },
+  {
+    "idx": 18,
+    "category": "tech",
+    "content": "디지털 트윈과 실시간 센서 데이터"
+  },
+  {
+    "idx": 19,
+    "category": "tech",
+    "content": "초광대역 통신과 시간차 거리측정"
+  },
+  {
+    "idx": 20,
+    "category": "tech",
+    "content": "군집 로봇과 분산 협업"
+  },
+  {
+    "idx": 21,
+    "category": "tech",
+    "content": "위성 인터넷과 레이저 링크"
+  },
+  {
+    "idx": 22,
+    "category": "tech",
+    "content": "머신 윤리와 규범 모델"
+  },
+  {
+    "idx": 23,
+    "category": "tech",
+    "content": "에지 컴퓨팅과 로컬 데이터 처리"
+  },
+  {
+    "idx": 24,
+    "category": "tech",
+    "content": "생체인식과 지문 인식/홍채 스캔"
+  },
+  {
+    "idx": 25,
+    "category": "tech",
+    "content": "분산 컴퓨팅과 작업 스케줄링"
+  },
+  {
+    "idx": 26,
+    "category": "tech",
+    "content": "로보어드바이저와 포트폴리오 최적화"
+  },
+  {
+    "idx": 27,
+    "category": "tech",
+    "content": "GPT 모델과 사전 학습"
+  },
+  {
+    "idx": 28,
+    "category": "tech",
+    "content": "홀로그래픽 텔레프레즌스와 공간 투영"
+  },
+  {
+    "idx": 29,
+    "category": "tech",
+    "content": "VR 치료와 가상 시나리오"
+  },
+  {
+    "idx": 30,
+    "category": "tech",
+    "content": "합성 연료와 인공 광합성"
+  },
+  {
+    "idx": 31,
+    "category": "academic",
+    "content": "슈뢰딩거의 파동 방정식"
+  },
+  {
+    "idx": 32,
+    "category": "academic",
+    "content": "맥스 베버의 관료제 이론"
+  },
+  {
+    "idx": 33,
+    "category": "geopolitics",
+    "content": "비잔틴 제국의 몰락"
+  },
+  {
+    "idx": 34,
+    "category": "academic",
+    "content": "허블 망원경과 천문학적 관측"
+  },
+  {
+    "idx": 35,
+    "category": "tech",
+    "content": "TCP/IP 프로토콜과 데이터 무결성"
+  },
+  {
+    "idx": 36,
+    "category": "geopolitics",
+    "content": "동독 체제 붕괴와 시장 경제 원리"
+  },
+  {
+    "idx": 37,
+    "category": "academic",
+    "content": "프랑켄슈타인 콤플렉스와 AI 윤리"
+  },
+  {
+    "idx": 38,
+    "category": "academic",
+    "content": "다윈의 진화론과 생태학적 적응"
+  },
+  {
+    "idx": 39,
+    "category": "academic",
+    "content": "아인슈타인의 광전효과 연구"
+  },
+  {
+    "idx": 40,
+    "category": "academic",
+    "content": "엔트로피와 열역학 제2법칙"
+  },
+  {
+    "idx": 41,
+    "category": "geopolitics",
+    "content": "베를린 장벽과 국제 관계"
+  },
+  {
+    "idx": 42,
+    "category": "tech",
+    "content": "양자 암호화 기술과 정보 보안"
+  },
+  {
+    "idx": 43,
+    "category": "academic",
+    "content": "마르크스의 자본론과 사회 개혁"
+  },
+  {
+    "idx": 44,
+    "category": "academic",
+    "content": "치타의 초고속 주행 능력과 생체역학"
+  },
+  {
+    "idx": 45,
+    "category": "geopolitics",
+    "content": "선거구제 개편과 정당 체계"
+  },
+  {
+    "idx": 46,
+    "category": "academic",
+    "content": "표류설과 대륙 이동 메커니즘"
+  },
+  {
+    "idx": 47,
+    "category": "academic",
+    "content": "인지 편향과 투자 결정"
+  },
+  {
+    "idx": 48,
+    "category": "culture",
+    "content": "일본의 하나미(꽃놀이)"
+  },
+  {
+    "idx": 49,
+    "category": "culture",
+    "content": "스페인의 라 토마티나 축제"
+  },
+  {
+    "idx": 50,
+    "category": "culture",
+    "content": "인도의 디왈리 축제"
+  },
+  {
+    "idx": 51,
+    "category": "culture",
+    "content": "브라질의 리우 카니발"
+  },
+  {
+    "idx": 52,
+    "category": "culture",
+    "content": "이집트의 라마단 쿠나파"
+  },
+  {
+    "idx": 53,
+    "category": "culture",
+    "content": "독일의 옥토버페스트"
+  },
+  {
+    "idx": 54,
+    "category": "regional",
+    "content": "일본의 스모 경기와 요코즈나"
+  },
+  {
+    "idx": 55,
+    "category": "regional",
+    "content": "아르헨티나의 아사도 바비큐"
+  },
+  {
+    "idx": 56,
+    "category": "culture",
+    "content": "독일의 트라흐트 스타일"
+  },
+  {
+    "idx": 57,
+    "category": "culture",
+    "content": "한국의 한글날"
+  },
+  {
+    "idx": 58,
+    "category": "regional",
+    "content": "호주 원주민 미술의 색상 의미"
+  },
+  {
+    "idx": 59,
+    "category": "regional",
+    "content": "러시아의 볼쇼이 극장"
+  },
+  {
+    "idx": 60,
+    "category": "regional",
+    "content": "모로코의 민트 차"
+  },
+  {
+    "idx": 61,
+    "category": "regional",
+    "content": "페루의 인티 라이미 축제"
+  },
+  {
+    "idx": 62,
+    "category": "regional",
+    "content": "브라질의 카포에라"
+  },
+  {
+    "idx": 63,
+    "category": "culture",
+    "content": "스웨덴의 미드썸머 축제"
+  },
+  {
+    "idx": 64,
+    "category": "regional",
+    "content": "덴마크의 뉴하운"
+  },
+  {
+    "idx": 65,
+    "category": "regional",
+    "content": "폴란드의 바벨 성"
+  },
+  {
+    "idx": 66,
+    "category": "regional",
+    "content": "헝가리의 부다 성"
+  },
+  {
+    "idx": 67,
+    "category": "regional",
+    "content": "체코의 카를교"
+  },
+  {
+    "idx": 68,
+    "category": "regional",
+    "content": "러시아의 보르시치"
+  },
+  {
+    "idx": 69,
+    "category": "culture",
+    "content": "독일의 레더호젠"
+  },
+  {
+    "idx": 70,
+    "category": "regional",
+    "content": "일본 스모의 마와시 의미"
+  },
+  {
+    "idx": 71,
+    "category": "culture",
+    "content": "한국의 김치와 유네스코 무형문화유산"
+  },
+  {
+    "idx": 72,
+    "category": "regional",
+    "content": "터키의 터키 커피"
+  },
+  {
+    "idx": 73,
+    "category": "regional",
+    "content": "멕시코의 죽은 자의 날과 판 데 무에르토"
+  },
+  {
+    "idx": 74,
+    "category": "culture",
+    "content": "그리스의 파르테논 신전"
+  },
+  {
+    "idx": 75,
+    "category": "culture",
+    "content": "태국의 송크란 축제"
+  },
+  {
+    "idx": 76,
+    "category": "regional",
+    "content": "남아프리카공화국의 우분투 철학"
+  },
+  {
+    "idx": 77,
+    "category": "regional",
+    "content": "에티오피아의 커피 의식"
+  },
+  {
+    "idx": 78,
+    "category": "regional",
+    "content": "몽골의 나담 축제"
+  },
+  {
+    "idx": 79,
+    "category": "regional",
+    "content": "베트남의 중추절 등불"
+  },
+  {
+    "idx": 80,
+    "category": "regional",
+    "content": "아일랜드의 클래더 반지"
+  },
+  {
+    "idx": 81,
+    "category": "regional",
+    "content": "뉴질랜드 마오리 문화의 하카"
+  },
+  {
+    "idx": 82,
+    "category": "food",
+    "content": "한국의 소주 문화와 안주"
+  },
+  {
+    "idx": 83,
+    "category": "food",
+    "content": "멕시코의 타코와 살사"
+  },
+  {
+    "idx": 84,
+    "category": "food",
+    "content": "일본의 야키토리"
+  },
+  {
+    "idx": 85,
+    "category": "food",
+    "content": "베트남의 커피 문화"
+  },
+  {
+    "idx": 86,
+    "category": "food",
+    "content": "독일의 비어가르텐 문화"
+  },
+  {
+    "idx": 87,
+    "category": "food",
+    "content": "한국의 PC방 문화와 간식"
+  },
+  {
+    "idx": 88,
+    "category": "regional",
+    "content": "터키의 하맘과 스킨케어"
+  },
+  {
+    "idx": 89,
+    "category": "food",
+    "content": "스페인의 타파스 문화"
+  },
+  {
+    "idx": 90,
+    "category": "food",
+    "content": "아르헨티나의 마테 음료 문화"
+  },
+  {
+    "idx": 91,
+    "category": "language",
+    "content": "한국어의 '한(恨)'"
+  },
+  {
+    "idx": 92,
+    "category": "language",
+    "content": "Comfort food의 한국어 표현"
+  },
+  {
+    "idx": 93,
+    "category": "language",
+    "content": "한국어의 '눈치'"
+  },
+  {
+    "idx": 94,
+    "category": "language",
+    "content": "영어 'serendipity'의 한국어 표현"
+  },
+  {
+    "idx": 95,
+    "category": "language",
+    "content": "한국어 '효(孝)'의 영어 표현"
+  },
+  {
+    "idx": 96,
+    "category": "language",
+    "content": "영어 'homesick'의 한국어 표현"
+  },
+  {
+    "idx": 97,
+    "category": "language",
+    "content": "한국 전통 개념 '풍류'의 영어 표현"
+  },
+  {
+    "idx": 98,
+    "category": "language",
+    "content": "영어 'nostalgia'의 한국어 표현"
+  },
+  {
+    "idx": 99,
+    "category": "language",
+    "content": "한국어 '답정너'의 영어 표현"
+  },
+  {
+    "idx": 100,
+    "category": "language",
+    "content": "영어 'karma'의 한국어 개념"
+  }
+]

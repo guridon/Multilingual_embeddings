@@ -1,0 +1,122 @@
+
+                <!DOCTYPE html>
+                <html>
+                <head>
+                    <title>코드 스위칭 효과 분석 요약</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; margin: 20px; }
+                        h1, h2 { color: #333; }
+                        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; }
+                        th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+                        th { background-color: #f2f2f2; }
+                        tr:nth-child(even) { background-color: #f9f9f9; }
+                        .positive { color: green; font-weight: bold; }
+                        .negative { color: red; font-weight: bold; }
+                        .overview { background-color: #f8f9fa; padding: 15px; border-radius: 5px; margin-bottom: 20px; }
+                        .category-badge {
+                            display: inline-block;
+                            padding: 3px 8px;
+                            border-radius: 12px;
+                            font-size: 12px;
+                            color: white;
+                            margin-right: 5px;
+                        }
+                    </style>
+                </head>
+                <body>
+                    <h1>코드 스위칭 효과 분석 요약 (sentence-transformers/paraphrase-xlm-r-multilingual-v1)</h1>
+                    
+                    <div class="overview">
+                        <h2>전체 효과 분석</h2>
+                        <p>
+                            <strong>코드 스위칭 쌍 평균 유사도:</strong> 0.3754 (샘플 수: 202)<br>
+                            <strong>기타 쌍 평균 유사도:</strong> 0.3761 (샘플 수: 404)<br>
+                            <strong>효과 차이:</strong> <span class="negative">-0.0007</span>
+                        </p>
+                        <p>
+                            <strong>코드 스위칭 쌍:</strong> EtoK↔English, KtoE↔Korean<br>
+                            <strong>기타 쌍:</strong> EtoK↔KtoE, English↔Korean, EtoK↔Korean, KtoE↔English
+                        </p>
+                    </div>
+                    
+                    <h2>카테고리별 효과 분석</h2>
+                    <table>
+                        <tr>
+                            <th>카테고리</th>
+                            <th>코드 스위칭 쌍 유사도</th>
+                            <th>기타 쌍 유사도</th>
+                            <th>효과 차이</th>
+                            <th>샘플 수 (코드 스위칭/기타)</th>
+                        </tr>
+                
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #2ecc71">기술/과학</span></td>
+                            <td>0.3938 (±0.1423)</td>
+                            <td>0.3706 (±0.1465)</td>
+                            <td class="positive">0.0233</td>
+                            <td>66 / 132</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #e74c3c">역사/지정학</span></td>
+                            <td>0.2972 (±0.0836)</td>
+                            <td>0.2957 (±0.1125)</td>
+                            <td class="positive">0.0015</td>
+                            <td>8 / 16</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #1abc9c">언어/번역</span></td>
+                            <td>0.4914 (±0.2124)</td>
+                            <td>0.4990 (±0.1953)</td>
+                            <td class="negative">-0.0077</td>
+                            <td>20 / 40</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #3498db">글로벌 문화</span></td>
+                            <td>0.4399 (±0.2336)</td>
+                            <td>0.4506 (±0.2131)</td>
+                            <td class="negative">-0.0107</td>
+                            <td>26 / 52</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #f39c12">지역 특수 문화</span></td>
+                            <td>0.3229 (±0.1389)</td>
+                            <td>0.3343 (±0.1306)</td>
+                            <td class="negative">-0.0114</td>
+                            <td>44 / 88</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #e67e22">음식/요리</span></td>
+                            <td>0.3170 (±0.1032)</td>
+                            <td>0.3351 (±0.1309)</td>
+                            <td class="negative">-0.0181</td>
+                            <td>16 / 32</td>
+                        </tr>
+                    
+                        <tr>
+                            <td><span class="category-badge" style="background-color: #9b59b6">학술/철학</span></td>
+                            <td>0.3147 (±0.1291)</td>
+                            <td>0.3359 (±0.1406)</td>
+                            <td class="negative">-0.0212</td>
+                            <td>22 / 44</td>
+                        </tr>
+                    
+                    </table>
+                    
+                    <h2>결론</h2>
+                    <div class="overview">
+                
+                        <p>코드 스위칭 쌍의 평균 유사도(0.3754)가 기타 쌍의 평균 유사도(0.3761)보다 0.0007 낮게 나타났습니다.
+                        이는 코드 스위칭으로 인해 의미적 차이가 발생할 수 있음을 시사합니다.</p>
+                    
+                        <p>카테고리별로 살펴보면, <strong>기술/과학</strong> 카테고리에서 코드 스위칭 효과가 가장 크게 나타났으며,
+                        <strong>학술/철학</strong> 카테고리에서는 효과가 가장 작거나 부정적으로 나타났습니다.</p>
+                    
+                    </div>
+                </body>
+                </html>
+                
